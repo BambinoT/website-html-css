@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 50px;
+}
+.content img{
+    position: relative;
+    left: 130px;
+    top: 9px;
+    width: 170px;
+    height: 111px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-top: 18px;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+}
+.left{
+    margin-left: 153px;
+    margin-right: 155px;
+}
+.right{
+    padding-right: 15px;
+}
+.fa-caret-down{
+    color: rgb(255, 106, 0);
+    margin-left: 11px;
+}
+#navbar{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+}
+nav{
+    margin-left: 300px;
+    padding-top: 25px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 21px;
+}
+.fa-magnifying-glass{
+    margin-left: 200px;
+}
+.bi-cart3{
+    margin-left: 22px;
+    position: relative;
+}
+.notif{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    top: -15px;
+    right: 17px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 50%;
+    padding: 4px;
+}
+.parent{
+    background-image: url(shoes-puma.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.parent img{
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-bottom: 7px;
+    height: 100px;
+    width: 100px;
+}
+.border-bottom{
+    border-bottom: 3px solid orange;
+    width: 90px;
+    margin-left: 605px;
+    margin-bottom: 100px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 13px;
+}
+.para1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+.para2{
+    margin-top: 90px;
+    padding-bottom: 150px;
+}
+.para2 p{
+    display: inline;
+    margin-left: 570px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border: 2px solid white;
+    padding: 15px;
+}
+.fa-chevron-right{
+    margin-left: 12px;
+}
+.all-dot{
+    display: flex;
+    margin-left: 600px;
+    padding-bottom: 133px;
+}
+.petit{
+    width: 4px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.grand{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.dot1,.dot2,.dot3,.dot4,.dot5{
+    margin: 7px;
+}
+.party-img{
+    display: flex;
+    margin-left: 200px;
+}
+.party{
+    background-color: rgb(235, 232, 232);
+}
+.party-img img{
+    width: 470px;
+    height: 300px;
+    position: relative;
+    bottom: 33px;
+    filter: blur(2px);
+}
+.party-img p{
+    position: relative;
+    bottom: 300px;
+    left: 37px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+}
+.trait1{
+    position: relative;
+    top: -410px;
+    left: 370px;
+    width: 263px;
+    height: 50px;
+    border-top: 4px solid rgb(255, 255, 255);
+}
+.trait2{
+    position: relative;
+    top: -350px;
+    left: 240px;
+    width: 100px;
+    height: 80px;
+    border-left: 4px solid rgb(255, 255, 255);
+}
+.trait3{
+    position: relative;
+    top: -400px;
+    left: 240px;
+    width: 393px;
+    height: 50px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+.trait4{
+    position: relative;
+    top: -598px;
+    left: 520px;
+    width: 111px;
+    height: 197px;
+    border-right: 4px solid rgb(255, 255, 255);
+}
+.trait-right{
+    position: relative;
+    top: -385px;
+    margin-left: 470px;
+}
+.trait1-r{
+    position: relative;
+    top: -410px;
+    left: 390px;
+    width: 243px;
+    height: 50px;
+    border-top: 4px solid rgb(255, 255, 255);
+}
+.trait2-r{
+    position: relative;
+    top: -350px;
+    left: 240px;
+    width: 100px;
+    height: 80px;
+    border-left: 4px solid rgb(255, 255, 255);
+}
+.trait3-r{
+    position: relative;
+    top: -400px;
+    left: 240px;
+    width: 393px;
+    height: 50px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+.trait4-r{
+    position: relative;
+    top: -598px;
+    left: 520px;
+    width: 111px;
+    height: 197px;
+    border-right: 4px solid rgb(255, 255, 255);
+}
+.span-left{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: -180px;
+    left: 30px;
+    font-size: 9px;
+    font-family: sans-serif;
+    padding: 11px;
+}
+.span-right{
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: -180px;
+    left: 30px;
+    font-size: 9px;
+    font-family: sans-serif;
+    padding: 11px;
+}
+footer{
+    position: relative;
+    top: -900px;
+    text-align: center;
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
